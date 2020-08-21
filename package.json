@@ -3,6 +3,11 @@
   "version": "0.0.0",
   "description": "",
   "main": "fastify-dynareg.js",
+  "types": "fastify-dynareg.d.ts",
+  "files": [
+    "fastify-dynareg.js",
+    "fastify-dynareg.d.ts"
+  ],
   "scripts": {
     "test": "eslint fastify-dynareg.js"
   },
@@ -19,5 +24,9 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "fastify": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greguz/fastify-dynareg.git"
   }
 }
