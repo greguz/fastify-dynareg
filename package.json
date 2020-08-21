@@ -1,0 +1,23 @@
+{
+  "name": "fastify-dynareg",
+  "version": "0.0.0",
+  "description": "",
+  "main": "fastify-dynareg.js",
+  "scripts": {
+    "test": "eslint fastify-dynareg.js"
+  },
+  "author": "Giacomo Gregoletto",
+  "license": "MIT",
+  "dependencies": {
+    "fastify-plugin": "^2.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "fastify": "^3.2.1"
+  }
+}
