@@ -1,6 +1,6 @@
 const build = require('fastify-plugin')
 
-module.exports = function (packageName, packageRequired = false) {
+function dynareg(packageName, packageRequired = false) {
   return build(function (fastify, options, callback) {
     let packageObject
     try {
@@ -19,3 +19,6 @@ module.exports = function (packageName, packageRequired = false) {
     callback()
   })
 }
+
+module.exports = dynareg
+module.exports.default = dynareg
