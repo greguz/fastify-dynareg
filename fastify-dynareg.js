@@ -20,5 +20,5 @@ function dynareg(packageName, packageRequired = false) {
   })
 }
 
+dynareg.default = dynareg
 module.exports = dynareg
-module.exports.default = dynareg
