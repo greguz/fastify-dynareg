@@ -12,6 +12,9 @@ const app = fastify({
 // Force fastify-blipp to be registered when env is not production
 app.register(dynareg('fastify-blipp', process.env.NODE_ENV !== 'production'))
 
+// Just try to load fastify-nope
+app.register(dynareg('fastify-nope'))
+
 app.get('/', async (request, reply) => {
   return { hello: 'world' }
 })

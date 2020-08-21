@@ -1,7 +1,7 @@
 {
   "name": "fastify-dynareg",
   "version": "0.0.0",
-  "description": "",
+  "description": "Dynamic plugin register for Fastify",
   "main": "fastify-dynareg.js",
   "types": "fastify-dynareg.d.ts",
   "files": [
@@ -22,8 +22,7 @@
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "fastify": "^3.2.1"
+    "eslint-plugin-standard": "^4.0.1"
   },
   "repository": {
     "type": "git",
