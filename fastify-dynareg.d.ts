@@ -1,2 +1,4 @@
-declare function dynareg (packageName: string, packageRequired?: boolean): any
-export = dynareg
+import { FastifyPlugin } from 'fastify';
+
+export declare function dynareg (packageName: string, packageRequired?: boolean): FastifyPlugin
+export default dynareg
