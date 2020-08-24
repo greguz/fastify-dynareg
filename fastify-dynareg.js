@@ -1,6 +1,6 @@
 const build = require('fastify-plugin')
 
-function dynareg(packageName, packageRequired = false) {
+function dynareg (packageName, packageRequired = false) {
   return build(function (fastify, options, callback) {
     let packageObject
     try {
