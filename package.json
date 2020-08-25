@@ -9,7 +9,9 @@
     "fastify-dynareg.d.ts"
   ],
   "scripts": {
-    "test": "eslint fastify-dynareg.js"
+    "test:eslint": "eslint fastify-dynareg.js tests/**/*.js",
+    "test:ava": "ava",
+    "test": "npm run test:eslint && npm run test:ava"
   },
   "author": "Giacomo Gregoletto",
   "license": "MIT",
@@ -17,15 +19,22 @@
     "fastify-plugin": "^2.3.2"
   },
   "devDependencies": {
+    "ava": "^3.12.1",
     "eslint": "^7.7.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "fastify": "^3.2.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/greguz/fastify-dynareg.git"
+  },
+  "ava": {
+    "files": [
+      "tests/test.js"
+    ]
   }
 }
