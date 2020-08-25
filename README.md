@@ -1,5 +1,7 @@
 # fastify-dynareg
 
+[![npm version](https://badge.fury.io/js/fastify-dynareg.svg)](https://badge.fury.io/js/fastify-dynareg) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 ```javascript
 const fastify = require('fastify')
 
