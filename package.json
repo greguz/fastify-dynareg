@@ -17,6 +17,12 @@
   },
   "author": "Giacomo Gregoletto",
   "license": "MIT",
+  "keywords": [
+    "fastify",
+    "dynamic",
+    "plugin",
+    "register"
+  ],
   "dependencies": {
     "fastify-plugin": "^2.3.2"
   },
