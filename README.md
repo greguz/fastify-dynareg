@@ -1,6 +1,6 @@
 # fastify-dynareg
 
-[![npm version](https://badge.fury.io/js/fastify-dynareg.svg)](https://badge.fury.io/js/fastify-dynareg) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm version](https://badge.fury.io/js/fastify-dynareg.svg)](https://badge.fury.io/js/fastify-dynareg) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Build Status](https://travis-ci.com/greguz/fastify-dynareg.svg?branch=master)](https://travis-ci.com/greguz/fastify-dynareg) [![Coverage Status](https://coveralls.io/repos/github/greguz/fastify-dynareg/badge.svg?branch=master)](https://coveralls.io/github/greguz/fastify-dynareg?branch=master)
 
 ```javascript
 const fastify = require('fastify')
