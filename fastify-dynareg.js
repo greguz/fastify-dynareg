@@ -1,6 +1,9 @@
 const build = require('fastify-plugin')
 
 function dynareg (packageName, packageRequired = false) {
+  if (typeof packageName !== 'string' || !packageName) {
+    throw new Error('Invalid package name detected')
+  }
   return build(
     function plugin (fastify, options, callback) {
       let packageObject

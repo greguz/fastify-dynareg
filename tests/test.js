@@ -31,3 +31,10 @@ test('required', async t => {
     { code: 'MODULE_NOT_FOUND' }
   )
 })
+
+test('error', t => {
+  t.throws(() => dynareg(null))
+  t.throws(() => dynareg(true))
+  t.throws(() => dynareg(false))
+  t.throws(() => dynareg(''))
+})
