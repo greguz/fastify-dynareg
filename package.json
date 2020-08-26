@@ -1,6 +1,6 @@
 {
   "name": "fastify-dynareg",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Dynamic plugin register for Fastify",
   "main": "fastify-dynareg.js",
   "types": "fastify-dynareg.d.ts",
