@@ -36,5 +36,6 @@ test('error', t => {
   t.throws(() => dynareg(null))
   t.throws(() => dynareg(true))
   t.throws(() => dynareg(false))
-  t.throws(() => dynareg(''))
+  t.throws(() => dynareg({}))
+  t.throws(() => dynareg([]))
 })
